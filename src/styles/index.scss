@@ -1,0 +1,33 @@
+/* 
+    General Styles
+*/
+.main{
+    background-color: #343a40;
+}
+
+.custom-card-header{
+    width: 100%;
+    padding: 0;
+    height: 200px;
+    opacity: 0;
+    transition: ease-in-out 1.5s;
+    background-image: url("./../img/endor.jpg");
+}
+.custom-card-image{
+    position: relative !important;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: black;
+    margin: auto;
+    top: -100px;
+}
+.active{
+    transition: ease-in-out 1.5s;
+    opacity: initial;
+    height: 400px;
+    opacity: 1;
+}
+.instagram{
+    color: #dc2e61 !important;
+}
